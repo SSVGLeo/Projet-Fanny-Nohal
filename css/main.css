@@ -37,6 +37,20 @@
 .main__container {
   height: 1000px;
 }
+.main__caroussel {
+  display: flex;
+  max-height: max-content;
+  gap: 10px;
+  align-items: center;
+  margin: 0px 150px;
+}
+.main__caroussel__img {
+  width: 100%;
+  max-width: 500px;
+}
+.main__caroussel__img img {
+  width: 100%;
+}
 
 body {
   background: linear-gradient(-180deg, #f4c4f3, #ff82df);
