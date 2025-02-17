@@ -1,0 +1,57 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: linear-gradient(180deg, #ff82df, #fcc2ed);
+  padding: 25px;
+}
+.header__text {
+  display: flex;
+  gap: 30px;
+  align-items: center;
+}
+.header__links {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: linear-gradient(180deg, #ff82df, #fcc2ed);
+  padding: 25px;
+}
+.header__text {
+  display: flex;
+  gap: 30px;
+  align-items: center;
+}
+.header__links {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+}
+
+.main__container {
+  height: 1000px;
+}
+
+body {
+  background: linear-gradient(-180deg, #f4c4f3, #ff82df);
+  margin: 0;
+}
+
+h1, h2, h3, h4, a {
+  font-family: "Chewy";
+  color: #c227c2;
+  text-decoration: none;
+}
+
+p {
+  font-family: "Delius";
+  color: #c227c2;
+}
+
+/*# sourceMappingURL=main.css.map */

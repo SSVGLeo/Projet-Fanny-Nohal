@@ -1,0 +1,20 @@
+@import 'abstracts/variables.scss';
+@import 'components/buttons.scss';
+
+@import 'layouts/header.scss';
+@import 'layouts/_header.scss';
+@import 'layouts/mainbody';
+
+body {
+    background: linear-gradient(-180deg, #f4c4f3, #ff82df);
+    margin: 0;
+}
+h1, h2, h3, h4, a {
+    font-family: 'Chewy';
+    color: $primary-color;
+    text-decoration: none;
+}
+p {
+    font-family: 'Delius';
+    color: $primary-color;
+}
